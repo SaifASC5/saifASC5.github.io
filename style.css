@@ -1,0 +1,46 @@
+#face{
+    width: 400px;
+    height: 400px;
+}
+
+.topnav{
+    display:inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 2px rgb(249, 249, 252);
+    background-color: rgb(53, 53, 54); 
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#ligmasbrother{
+    text-align: center;
+}
+
+#ligmasister{
+    display:inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 2px blue;
+    background-color: white; 
+    font-size: 20 px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url("images/calm_background.jpg");
+    background-size:cover;
+
+}
+
+.topnav a{
+    color:white
+}
